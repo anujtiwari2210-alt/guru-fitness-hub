@@ -51,7 +51,7 @@ export default function IntroProvider({ children }) {
 
               {/* Heartbeat line */}
               <svg viewBox="0 0 600 100" className="relative mb-6 h-20 w-full max-w-xl">
-                <motion.path d="M0 50 H170 L195 50 L220 8 L252 92 L280 28 L300 50 H600" fill="none" stroke="#C6FF00" strokeWidth="3" strokeLinejoin="round"
+                <motion.path d="M0 50 H170 L195 50 L220 8 L252 92 L280 28 L300 50 H600" fill="none" stroke="#e12b37" strokeWidth="3" strokeLinejoin="round"
                   initial={{ pathLength: 0 }} animate={{ pathLength: 1 }} transition={{ duration: 1.5, ease: "easeInOut" }} />
               </svg>
 
