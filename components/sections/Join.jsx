@@ -119,15 +119,23 @@ export default function Join() {
             <p className="text-xs font-bold uppercase tracking-widest">
               {j.hoursTitle}
             </p>
-            {constants.contact.hours.map((h) => (
-              <p
-                key={h.days}
-                className="flex justify-between font-display text-2xl uppercase"
-              >
-                <span>{h.days}</span>
-                <span>{h.time}</span>
-              </p>
-            ))}
+
+            <div className="mt-2 flex flex-col gap-2">
+              {constants.contact.hours.map((h) => (
+                <div
+                  key={h.days}
+                  className="grid grid-cols-[minmax(0,0.7fr)_minmax(0,1.3fr)] items-start gap-x-3"
+                >
+                  <span className="font-display text-xl uppercase leading-tight sm:text-2xl">
+                    {h.days}
+                  </span>
+
+                  <span className="text-left font-display text-xl uppercase leading-tight sm:text-2xl">
+                    {h.time}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </Reveal>
 
