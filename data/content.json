@@ -1,0 +1,611 @@
+{
+  "hero": {
+    "video": "/images/hero.mp4",
+    "poster": "/images/hero.jpg",
+    "eyebrow": "Kanpur's high-performance gym",
+    "lines": ["Build Your", "Strongest", "Self."],
+    "subtitle": "Certified coaches, serious equipment and classes that fit your day. Start with a free 1-day pass, no strings attached.",
+    "primaryCta": "Claim Free 1-Day Pass",
+    "secondaryCta": "See Plans",
+    "stats": [
+      { "value": "2,500+", "label": "Active members" },
+      { "value": "25+", "label": "Certified trainer" },
+      { "value": "40", "label": "Classes every week" },
+      { "value": "5AM-10PM", "label": "Open 6 days" }
+    ]
+  },
+  "marquee": [
+    "Strength",
+    "HIIT",
+    "Fat Loss",
+    "Yoga",
+    "Zumba",
+    "Personal Training",
+    "Mobility",
+    "Cardio"
+  ],
+  "programs": {
+    "eyebrow": "Programs",
+    "title": "Train your way",
+    "text": "Six programs, one goal: a stronger you. Not sure where to start? Use the calculator below.",
+    "burnLabel": "Avg burn",
+    "cta": "Try this",
+    "items": [
+      {
+        "title": "Strength & Hypertrophy",
+        "level": "All levels",
+        "duration": "60 min",
+        "burn": "450 kcal",
+        "text": "Progressive lifting with free weights and machines, built around your split.",
+        "tags": ["Free weights", "Powerlifting"],
+        "image": "/images/strength.jpg"
+      },
+      {
+        "title": "HIIT & Cross-training",
+        "level": "Intermediate",
+        "duration": "45 min",
+        "burn": "600 kcal",
+        "text": "Short, brutal intervals that torch fat and build engine.",
+        "tags": ["Circuits", "Conditioning"],
+        "image": "/images/cardio.jpg"
+      },
+      {
+        "title": "Fat-Loss Program",
+        "level": "Beginner friendly",
+        "duration": "12 weeks",
+        "burn": "Plan based",
+        "text": "Training, cardio and nutrition guidance working together, tracked weekly.",
+        "tags": ["Diet plan", "Weekly check-in"],
+        "image": "/images/fatloss.jpg"
+      },
+      {
+        "title": "Yoga & Mobility",
+        "level": "All levels",
+        "duration": "50 min",
+        "burn": "250 kcal",
+        "text": "Move better, recover faster and fix stiff hips, backs and shoulders.",
+        "tags": ["Flexibility", "Recovery"],
+        "image": "/images/yoga.jpg"
+      },
+      {
+        "title": "Zumba & Dance Cardio",
+        "level": "All levels",
+        "duration": "45 min",
+        "burn": "500 kcal",
+        "text": "High-energy dance workouts that never feel like a workout.",
+        "tags": ["Cardio", "Fun"],
+        "image": "/images/zumba.jpg"
+      },
+      {
+        "title": "Personal Training",
+        "level": "1-on-1",
+        "duration": "60 min",
+        "burn": "Custom",
+        "text": "A coach, a plan and full accountability. Fastest route to your goal.",
+        "tags": ["1-on-1", "Custom plan"],
+        "image": "/images/pt.jpg"
+      }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "Free tool",
+    "title": "Know your numbers",
+    "text": "Check your BMI, daily calories and the program that fits your goal.",
+    "labels": {
+      "gender": "Gender",
+      "age": "Age",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "activity": "Activity level",
+      "goal": "Your goal"
+    },
+    "genders": [
+      { "value": "m", "label": "Male" },
+      { "value": "f", "label": "Female" }
+    ],
+    "diet": {
+      "label": "Diet preference",
+      "options": [
+        { "value": "pure-veg", "label": "Pure Vegetarian" },
+        { "value": "eggetarian", "label": "Vegetarian + Eggs" },
+        { "value": "non-veg", "label": "Non-Vegetarian" },
+        { "value": "vegan", "label": "Vegan" }
+      ]
+    },
+    "activities": [
+      { "value": "low", "label": "Desk job", "mult": 1.35 },
+      { "value": "mid", "label": "Lightly active", "mult": 1.55 },
+      { "value": "high", "label": "Very active", "mult": 1.75 }
+    ],
+    "goals": [
+      {
+        "value": "lose",
+        "label": "Lose fat",
+        "delta": -450,
+        "program": "Fat-Loss Program"
+      },
+      {
+        "value": "build",
+        "label": "Build muscle",
+        "delta": 350,
+        "program": "Strength & Hypertrophy"
+      },
+      {
+        "value": "fit",
+        "label": "Stay fit",
+        "delta": 0,
+        "program": "HIIT & Cross-training"
+      }
+    ],
+    "bmiLabel": "Your BMI",
+    "kcalLabel": "Daily calories to hit your goal",
+    "proteinLabel": "Protein target",
+    "programLabel": "Recommended program",
+    "categories": {
+      "under": "Underweight",
+      "normal": "Healthy",
+      "over": "Overweight",
+      "obese": "Obese"
+    },
+    "disclaimer": "General estimate only, not medical advice.",
+    "cta": "Get My Plan on WhatsApp"
+  },
+  "schedule": {
+    "eyebrow": "Class schedule",
+    "title": "Find your slot",
+    "text": "Tap a day. Book your spot in one tap.",
+    "book": "Book",
+    "days": [
+      {
+        "day": "Mon",
+        "classes": [
+          {
+            "time": "6:00 AM",
+            "name": "Power Strength",
+            "trainer": "Rohan",
+            "level": "All"
+          },
+          {
+            "time": "8:00 AM",
+            "name": "Yoga Flow",
+            "trainer": "Neha",
+            "level": "Beginner"
+          },
+          {
+            "time": "6:00 PM",
+            "name": "HIIT Blast",
+            "trainer": "Imran",
+            "level": "Intermediate"
+          },
+          {
+            "time": "7:30 PM",
+            "name": "Zumba Night",
+            "trainer": "Priya",
+            "level": "All"
+          }
+        ]
+      },
+      {
+        "day": "Tue",
+        "classes": [
+          {
+            "time": "6:00 AM",
+            "name": "Cross-training",
+            "trainer": "Imran",
+            "level": "Intermediate"
+          },
+          {
+            "time": "9:00 AM",
+            "name": "Mobility Reset",
+            "trainer": "Neha",
+            "level": "All"
+          },
+          {
+            "time": "6:30 PM",
+            "name": "Hypertrophy Push",
+            "trainer": "Rohan",
+            "level": "All"
+          },
+          {
+            "time": "8:00 PM",
+            "name": "Core & Abs",
+            "trainer": "Priya",
+            "level": "Beginner"
+          }
+        ]
+      },
+      {
+        "day": "Wed",
+        "classes": [
+          {
+            "time": "6:00 AM",
+            "name": "Fat-Loss Circuit",
+            "trainer": "Imran",
+            "level": "Beginner"
+          },
+          {
+            "time": "8:00 AM",
+            "name": "Yoga Flow",
+            "trainer": "Neha",
+            "level": "Beginner"
+          },
+          {
+            "time": "6:00 PM",
+            "name": "Power Strength",
+            "trainer": "Rohan",
+            "level": "All"
+          },
+          {
+            "time": "7:30 PM",
+            "name": "Zumba Night",
+            "trainer": "Priya",
+            "level": "All"
+          }
+        ]
+      },
+      {
+        "day": "Thu",
+        "classes": [
+          {
+            "time": "6:00 AM",
+            "name": "HIIT Blast",
+            "trainer": "Imran",
+            "level": "Intermediate"
+          },
+          {
+            "time": "9:00 AM",
+            "name": "Mobility Reset",
+            "trainer": "Neha",
+            "level": "All"
+          },
+          {
+            "time": "6:30 PM",
+            "name": "Hypertrophy Pull",
+            "trainer": "Rohan",
+            "level": "All"
+          },
+          {
+            "time": "8:00 PM",
+            "name": "Boxing Cardio",
+            "trainer": "Imran",
+            "level": "All"
+          }
+        ]
+      },
+      {
+        "day": "Fri",
+        "classes": [
+          {
+            "time": "6:00 AM",
+            "name": "Power Strength",
+            "trainer": "Rohan",
+            "level": "All"
+          },
+          {
+            "time": "8:00 AM",
+            "name": "Yoga Flow",
+            "trainer": "Neha",
+            "level": "Beginner"
+          },
+          {
+            "time": "6:00 PM",
+            "name": "Cross-training",
+            "trainer": "Imran",
+            "level": "Intermediate"
+          },
+          {
+            "time": "7:30 PM",
+            "name": "Zumba Night",
+            "trainer": "Priya",
+            "level": "All"
+          }
+        ]
+      },
+      {
+        "day": "Sat",
+        "classes": [
+          {
+            "time": "7:00 AM",
+            "name": "Team HIIT",
+            "trainer": "Imran",
+            "level": "All"
+          },
+          {
+            "time": "9:00 AM",
+            "name": "Leg Day Lab",
+            "trainer": "Rohan",
+            "level": "Intermediate"
+          },
+          {
+            "time": "5:00 PM",
+            "name": "Dance Cardio",
+            "trainer": "Priya",
+            "level": "All"
+          }
+        ]
+      },
+      {
+        "day": "Sun",
+        "classes": [
+          {
+            "time": "7:00 AM",
+            "name": "Yoga & Breathwork",
+            "trainer": "Neha",
+            "level": "All"
+          },
+          {
+            "time": "9:00 AM",
+            "name": "Open Gym + Coach",
+            "trainer": "Rohan",
+            "level": "All"
+          }
+        ]
+      }
+    ]
+  },
+  "trainers": {
+    "eyebrow": "The coaches",
+    "title": "Trained by the best",
+    "cta": "Book session",
+    "items": [
+      {
+        "name": "Rohan Verma",
+        "role": "Head strength coach",
+        "exp": "10 yrs",
+        "certs": ["ACE-CPT", "Powerlifting L2"],
+        "image": "/images/trainers/t1.jpg"
+      },
+      {
+        "name": "Imran Khan",
+        "role": "HIIT & conditioning",
+        "exp": "8 yrs",
+        "certs": ["CrossFit L1", "First Aid"],
+        "image": "/images/trainers/t2.jpg"
+      },
+      {
+        "name": "Neha Kapoor",
+        "role": "Yoga & mobility",
+        "exp": "7 yrs",
+        "certs": ["RYT-500", "Mobility Coach"],
+        "image": "/images/trainers/t3.jpg"
+      },
+      {
+        "name": "Priya Singh",
+        "role": "Dance cardio & fat loss",
+        "exp": "6 yrs",
+        "certs": ["Zumba Licensed", "Nutrition Basics"],
+        "image": "/images/trainers/t4.jpg"
+      }
+    ]
+  },
+  "owner": {
+    "eyebrow": "The Founder",
+    "title": "The vision behind the grind.",
+    "name": "Shubham Sharma",
+    "role": "Founder & Owner, Guru Fitness Hub",
+    "experience": "10+ Years in Fitness",
+    "image": "/images/owner.png",
+    "text": "Built on a passion for fitness, discipline and transformation, Guru Fitness Hub is committed to helping every member become stronger, healthier and more confident.",
+    "highlights": [
+      "Discipline over excuses",
+      "Personalized fitness guidance",
+      "Results-driven training"
+    ],
+    "cta": "Connect with us"
+  },
+  "plans": {
+    "eyebrow": "Membership",
+    "title": "Simple pricing. Zero surprises.",
+    "text": "Prices shown per month. Longer plans cost less. Indicative prices, final rates at the front desk.",
+    "perMonth": "per month",
+    "billedLabel": "Billed",
+    "billing": [
+      { "value": "monthly", "label": "Monthly", "months": 1, "note": "" },
+      {
+        "value": "quarterly",
+        "label": "3 Months",
+        "months": 3,
+        "note": "Save 10%"
+      },
+      {
+        "value": "yearly",
+        "label": "12 Months",
+        "months": 12,
+        "note": "Save 25%"
+      }
+    ],
+    "items": [
+      {
+        "name": "Basic",
+        "tag": "Gym floor access",
+        "price": { "monthly": 1499, "quarterly": 1349, "yearly": 1099 },
+        "features": [
+          "Full gym floor access",
+          "Locker & shower",
+          "1 fitness assessment",
+          "Open 6 AM - 10 PM"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Pro",
+        "tag": "Most popular",
+        "price": { "monthly": 2299, "quarterly": 2049, "yearly": 1699 },
+        "features": [
+          "Everything in Basic",
+          "All group classes",
+          "Monthly body analysis",
+          "Diet guidance",
+          "Guest pass x2 / month"
+        ],
+        "popular": true
+      },
+      {
+        "name": "Elite",
+        "tag": "Coach included",
+        "price": { "monthly": 3499, "quarterly": 3149, "yearly": 2599 },
+        "features": [
+          "Everything in Pro",
+          "8 personal training sessions",
+          "Custom workout & diet plan",
+          "Priority booking",
+          "Recovery zone access"
+        ],
+        "popular": false
+      }
+    ],
+    "cta": "Join"
+  },
+  "results": {
+    "eyebrow": "Real results",
+    "title": "Drag. See the difference.",
+    "before": "Before",
+    "after": "After",
+    "items": [
+      {
+        "name": "Aman, 28",
+        "result": "-14 kg in 12 weeks",
+        "program": "Fat-Loss Program",
+        "quote": "Coaches kept me honest every single week.",
+        "before": "/images/fatty.png",
+        "after": "/images/fit.png"
+      },
+      {
+        "name": "Sneha, 24",
+        "result": "+5 kg lean muscle",
+        "program": "Strength & Hypertrophy",
+        "quote": "I finally have a plan that actually works.",
+        "before": "/images/fatty.png",
+        "after": "/images/mus.png"
+      },
+      {
+        "name": "Vikas, 35",
+        "result": "-9 kg, off BP meds",
+        "program": "Personal Training",
+        "quote": "Best decision I made for my family and me.",
+        "before": "/images/fit.png",
+        "after": "/images/mus.png"
+      }
+    ]
+  },
+  "facilities": {
+    "eyebrow": "Inside Volt",
+    "title": "Built for serious training",
+    "items": [
+      {
+        "icon": "dumbbell",
+        "title": "Free-weight zone",
+        "text": "Racks, platforms and dumbbells up to 60 kg."
+      },
+      {
+        "icon": "heart",
+        "title": "Cardio deck",
+        "text": "Treadmills, bikes, rowers and cross-trainers."
+      },
+      {
+        "icon": "snow",
+        "title": "Fully air-conditioned",
+        "text": "Cool, clean and ventilated all year."
+      },
+      {
+        "icon": "shower",
+        "title": "Showers & lockers",
+        "text": "Fresh towels and secure lockers."
+      },
+      {
+        "icon": "users",
+        "title": "Group studio",
+        "text": "Mirrors, sound and a sprung floor."
+      },
+      {
+        "icon": "salad",
+        "title": "Nutrition desk",
+        "text": "Diet plans and a protein bar."
+      },
+      {
+        "icon": "parking",
+        "title": "Free parking",
+        "text": "Bike and car parking on site."
+      },
+      {
+        "icon": "target",
+        "title": "Progress tracking",
+        "text": "Monthly body analysis and goal review."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Member love",
+    "title": "What members say",
+    "items": [
+      {
+        "quote": "Cleanest gym in Gomti Nagar and the trainers actually correct your form.",
+        "name": "Rahul M."
+      },
+      {
+        "quote": "The 6 AM HIIT class changed my whole mornings. Addicted.",
+        "name": "Pooja S."
+      },
+      {
+        "quote": "Lost 11 kg in 3 months with the fat-loss plan. Worth every rupee.",
+        "name": "Karan T."
+      },
+      {
+        "quote": "Zumba night is the best part of my week. Super friendly crowd.",
+        "name": "Anjali R."
+      },
+      {
+        "quote": "Plenty of equipment so I never wait. Pro plan is great value.",
+        "name": "Sandeep K."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you join",
+    "items": [
+      {
+        "q": "Is the 1-day pass really free?",
+        "a": "Yes. Walk in, train with us for a day and decide later. No card, no commitment."
+      },
+      {
+        "q": "Can I freeze or transfer my membership?",
+        "a": "Yes. Longer plans include freezing for medical or travel reasons. Terms are shared at the front desk."
+      },
+      {
+        "q": "I'm a complete beginner. Is that okay?",
+        "a": "Absolutely. Every new member gets a fitness assessment and a starter plan from a coach."
+      },
+      {
+        "q": "Do you offer student or couple discounts?",
+        "a": "We run seasonal offers. Message us on WhatsApp to get the current rates."
+      },
+      {
+        "q": "Do you have women-only batches?",
+        "a": "Yes, selected classes and hours are women-friendly. Ask us for the current timings."
+      }
+    ]
+  },
+  "join": {
+    "eyebrow": "Start today",
+    "title": "Claim your free 1-day pass",
+    "text": "Tell us what you're after. We'll confirm your slot on WhatsApp.",
+    "hoursTitle": "Opening hours",
+    "interestLabel": "I'm interested in",
+    "timeLabel": "Preferred time",
+    "times": ["Morning", "Evening"],
+    "submit": "Send on WhatsApp",
+    "success": "Your request is ready on WhatsApp. See you at the gym!",
+    "bullets": [
+      "No card needed",
+      "Free fitness assessment",
+      "Coach walks you through"
+    ]
+  },
+  "footer": {
+    "about": "A high-performance gym in Kanpur for people who want real results.",
+    "navTitle": "Explore",
+    "contactTitle": "Visit & call",
+    "tagline": "Train hard. Recover harder."
+  }
+}

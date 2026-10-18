@@ -1,0 +1,44 @@
+{
+  "brand": {
+    "name": "Guru Fitness Hub",
+    "monogram": "GFH",
+    "location": "Kanpur, UP",
+    "tagline": "No excuses. Only results."
+  },
+  "favicon": "/images/logo.png",
+  "seo": {
+    "title": "Guru Fitness Hub | Best Gym in Kanpur: Strength, HIIT, Yoga & Personal Training",
+    "description": "Premium gym in Kanpur with certified trainers, daily classes, flexible memberships and a free 1-day pass."
+  },
+  "contact": {
+    "phoneDisplay": "+91 790 523 4944",
+    "phoneRaw": "+917905234944",
+    "whatsapp": "917905234944",
+    "email": "tiwarianuj712@gmail.com",
+    "address": "2, Front of Indian bank, coaching mandi road, Barra 2, Barra World Bank, Barra, Kanpur, Uttar Pradesh 208027",
+    "instagram": "https://www.instagram.com/guru_fitness_hub/",
+    "youtube": "https://www.youtube.com/channel/UCrpj2nZ89Bi-ro8rwIZnGAg",
+    "hours": [
+      {
+        "days": "Mon - Sat",
+        "time": "6:00 AM - 10:00 AM • 5:00 PM - 10:00 PM"
+      },
+      { "days": "Sunday", "time": "Close" }
+    ]
+  },
+  "whatsappMessages": {
+    "default": "Hello Guru Fitness Hub, I want to know more about joining the gym.",
+    "trial": "Hello Guru Fitness Hub, I would like to claim my free 1-day pass.",
+    "floating": "Hi Guru Fitness Hub, I have a question about membership."
+  },
+  "nav": [
+    { "label": "Programs", "href": "#programs" },
+    { "label": "Schedule", "href": "#schedule" },
+    { "label": "Owner", "href": "#owner" },
+    { "label": "Trainers", "href": "#trainers" },
+    { "label": "Plans", "href": "#plans" },
+    { "label": "Results", "href": "#results" },
+    { "label": "Join", "href": "#join" }
+  ],
+  "intro": { "enabled": true, "oncePerSession": true, "durationMs": 3200 }
+}
